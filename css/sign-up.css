@@ -8,7 +8,7 @@ hr {
 .btn-next {
 	background-color:#FF00BF;
 	border-radius:0px;
-	margin-top:40%;
+	margin-top:25%;
 	padding:6%;
 	color:whitesmoke;
 }
@@ -19,4 +19,18 @@ hr {
 .sms {
 	margin-left:10%;
 	margin-top:4%;
+}
+
+.modal {
+	padding:5%; 
+}
+.radio {
+	margin-top:4%;
+	margin-left:3%;
+}
+.modalcountry{
+	text-align: center;
+}
+.btn-default{
+	position:inline-block;
 }

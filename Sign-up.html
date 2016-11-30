@@ -22,35 +22,61 @@
 		</div>
 	</header>
 	<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="input-group">
-					<div class="input-group-btn">
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
-						<ul class="dropdown-menu">
-							<li><a href="#">Chile</a></li>
-							<li><a href="#">Mexico</a></li>
-							<li><a href="#">Estados Unidos</a></li>
-							<li><a href="#">Argentina</a></li>
-						</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm"></button>
+					<input type="tel" class="form-control inputnumber">
+					<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+						<div class="modal-dialog modal-sm" role="document">
+							<div class="modal-content">
+								<h4 class="modalcountry">Choose your Country</h4>
+								<hr>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Argentina</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Chile">Chile</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Estados Unidos</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Mexico</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Brasil</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Venezuela</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Canada</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">España</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="optradio" value="Argentina">Australia</label>
+								</div>
+							</div>
+						</div>
 					</div>
-					<input type="tel" class="form-control" aria-label="">
+					<p class="sms">We'll send you a text to verify your phone</p>
 				</div>
 			</div>
 		</div>
-		<p class="sms">We'll send you a text to verify your phone</p>
-	</div>
 	</section>
 	<section>
-			<div class="row">
-				<div class="col-xs-12">
-					<a href="signupsiguiente.html"><button type="button" class="btn btn-lg btn-block btn-next">NEXT</button></a>
-				</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="signupsiguiente.html"><button type="button" class="btn btn-lg btn-block btn-next">NEXT</button></a>
 			</div>
-	</section>
+		</div>
+	</section>	
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
+
